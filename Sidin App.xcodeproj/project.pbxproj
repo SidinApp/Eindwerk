@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3DBA801B1C504500D0106D /* Bert.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA7F1B1C504500D0106D /* Bert.m */; };
 		6F6ED7B71B1C42D9004098CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B61B1C42D9004098CF /* main.m */; };
 		6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B91B1C42D9004098CF /* AppDelegate.m */; };
 		6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7BB1B1C42D9004098CF /* Sidin_App.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D3DBA7E1B1C504500D0106D /* Bert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bert.h; sourceTree = "<group>"; };
+		6D3DBA7F1B1C504500D0106D /* Bert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bert.m; sourceTree = "<group>"; };
 		6F6ED7B11B1C42D9004098CF /* Sidin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6ED7B51B1C42D9004098CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6ED7B61B1C42D9004098CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				6F6ED7C61B1C42D9004098CF /* LaunchScreen.xib */,
 				6F6ED7BB1B1C42D9004098CF /* Sidin_App.xcdatamodeld */,
 				6F6ED7B41B1C42D9004098CF /* Supporting Files */,
+				6D3DBA7E1B1C504500D0106D /* Bert.h */,
+				6D3DBA7F1B1C504500D0106D /* Bert.m */,
 			);
 			path = "Sidin App";
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3DBA801B1C504500D0106D /* Bert.m in Sources */,
 				6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */,
 				6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */,
 				6F6ED7C01B1C42D9004098CF /* ViewController.m in Sources */,
@@ -422,6 +428,7 @@
 				6F6ED7D91B1C42D9004098CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F6ED7DA1B1C42D9004098CF /* Build configuration list for PBXNativeTarget "Sidin AppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +437,7 @@
 				6F6ED7DC1B1C42D9004098CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
