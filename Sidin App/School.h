@@ -1,5 +1,5 @@
 //
-//  Robrecht.h
+//  School.h
 //  Sidin App
 //
 //  Created by  on 01/06/15.
@@ -8,7 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Robrecht : NSObject
-//el changerino
+@interface School : NSObject
+
+@property long id;
+@property NSString* name;
+@property NSString* gemeente;
+@property int postcode;
 
 @end

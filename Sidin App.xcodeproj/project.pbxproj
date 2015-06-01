@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3DBA861B1C60DB00D0106D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA851B1C60DB00D0106D /* Event.m */; };
+		6D3DBA891B1C611B00D0106D /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA881B1C611B00D0106D /* School.m */; };
+		6D3DBA8C1B1C612800D0106D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA8B1B1C612800D0106D /* Teacher.m */; };
+		6D3DBA8F1B1C613900D0106D /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA8E1B1C613900D0106D /* Subscription.m */; };
 		6F6ED7B71B1C42D9004098CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B61B1C42D9004098CF /* main.m */; };
 		6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B91B1C42D9004098CF /* AppDelegate.m */; };
 		6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7BB1B1C42D9004098CF /* Sidin_App.xcdatamodeld */; };
@@ -28,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D3DBA841B1C60DB00D0106D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		6D3DBA851B1C60DB00D0106D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		6D3DBA871B1C611B00D0106D /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		6D3DBA881B1C611B00D0106D /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		6D3DBA8A1B1C612800D0106D /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		6D3DBA8B1B1C612800D0106D /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		6D3DBA8D1B1C613900D0106D /* Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscription.h; sourceTree = "<group>"; };
+		6D3DBA8E1B1C613900D0106D /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
 		6F6ED7B11B1C42D9004098CF /* Sidin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6ED7B51B1C42D9004098CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6ED7B61B1C42D9004098CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -62,6 +74,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D3DBA811B1C60A300D0106D /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6D3DBA841B1C60DB00D0106D /* Event.h */,
+				6D3DBA851B1C60DB00D0106D /* Event.m */,
+				6D3DBA871B1C611B00D0106D /* School.h */,
+				6D3DBA881B1C611B00D0106D /* School.m */,
+				6D3DBA8A1B1C612800D0106D /* Teacher.h */,
+				6D3DBA8B1B1C612800D0106D /* Teacher.m */,
+				6D3DBA8D1B1C613900D0106D /* Subscription.h */,
+				6D3DBA8E1B1C613900D0106D /* Subscription.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		6F6ED7A81B1C42D9004098CF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,7 @@
 		6F6ED7B31B1C42D9004098CF /* Sidin App */ = {
 			isa = PBXGroup;
 			children = (
+				6D3DBA811B1C60A300D0106D /* model */,
 				6F6ED7B81B1C42D9004098CF /* AppDelegate.h */,
 				6F6ED7B91B1C42D9004098CF /* AppDelegate.m */,
 				6F6ED7BE1B1C42D9004098CF /* ViewController.h */,
@@ -223,9 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */,
+				6D3DBA8C1B1C612800D0106D /* Teacher.m in Sources */,
 				6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */,
+				6D3DBA861B1C60DB00D0106D /* Event.m in Sources */,
 				6F6ED7C01B1C42D9004098CF /* ViewController.m in Sources */,
 				6F6ED7B71B1C42D9004098CF /* main.m in Sources */,
+				6D3DBA8F1B1C613900D0106D /* Subscription.m in Sources */,
+				6D3DBA891B1C611B00D0106D /* School.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
