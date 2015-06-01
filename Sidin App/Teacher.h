@@ -11,7 +11,7 @@
 @interface Teacher : NSObject
 
 @property long id;
-@property NSString* name;
+@property NSString *name;
 @property int academicYear;
 
 @end

@@ -11,8 +11,8 @@
 @interface School : NSObject
 
 @property long id;
-@property NSString* name;
-@property NSString* gemeente;
+@property NSString *name;
+@property NSString *gemeente;
 @property int postcode;
 
 @end
