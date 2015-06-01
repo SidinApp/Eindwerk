@@ -8,7 +8,6 @@
 
 #import "Subscription.h"
 
-@interface Robrecht : NSObject
-//el changerino
+@implementation Subscription
 
 @end

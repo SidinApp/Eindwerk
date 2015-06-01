@@ -5,6 +5,174 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="Cal-gZ-Hkw">
+            <objects>
+                <viewController id="vjF-3y-hFR" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fyh-CE-wHH"/>
+                        <viewControllerLayoutGuide type="bottom" id="9E7-iF-Hvv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Emr-o8-LnR">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="departementale code" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nm9-PI-PAI">
+                                <rect key="frame" x="412" y="369" width="200" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGw-EO-sW8">
+                                <rect key="frame" x="412" y="419" width="200" height="30"/>
+                                <state key="normal" title="Ok">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dw2-MB-ipf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3618" y="-1065"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ts8-PL-Ufe">
+            <objects>
+                <viewController id="7Ao-L4-Rgs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8zm-tl-ATL"/>
+                        <viewControllerLayoutGuide type="bottom" id="SRG-r7-TKf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="337-oe-9AY">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Naam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzU-nF-Bbn">
+                                <rect key="frame" x="348" y="180" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fds-gg-ZhY">
+                                <rect key="frame" x="618" y="180" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bw8-Rk-C6n">
+                                <rect key="frame" x="491" y="369" width="43" height="30"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I1R-xL-dh8">
+                                <rect key="frame" x="0.0" y="552" width="1024" height="216"/>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T3i-d1-r8m">
+                                <rect key="frame" x="592" y="209" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mxt-PE-oaM">
+                                <rect key="frame" x="323" y="209" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyo-6y-EtR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2421" y="-1072"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="MMo-si-a4J">
+            <objects>
+                <viewController id="ZHs-t2-KHu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iVQ-tK-JKZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hIH-0t-PMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Znc-lm-f6P">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rca-sz-6jP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2382" y="-7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s0p-P3-EbU">
+            <objects>
+                <viewController id="0s7-cs-Zyc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dhx-GQ-Auu"/>
+                        <viewControllerLayoutGuide type="bottom" id="n5c-ZS-TsZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZY3-20-fbI">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uTZ-SP-NKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230" y="-95"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dr2-jB-jlk">
+            <objects>
+                <viewController id="hNK-J2-7nu" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n9c-h9-ShX"/>
+                        <viewControllerLayoutGuide type="bottom" id="CuG-q4-sSW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SqP-bU-s3c">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SQ3-D4-WIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-90" y="-7"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="uMQ-K2-XQc">
+            <objects>
+                <viewController id="G01-cP-3zD" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VMM-js-VAK"/>
+                        <viewControllerLayoutGuide type="bottom" id="6iU-9i-Ejf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pob-SZ-bl2">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bj-0o-2HP">
+                                <rect key="frame" x="482" y="451" width="61" height="30"/>
+                                <state key="normal" title="Check in">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqs-Ic-UFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1230" y="-1065"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -116,22 +284,22 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xpp-dS-Nls">
                                 <rect key="frame" x="659" y="142" width="349" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wQc-uD-PB6">
                                 <rect key="frame" x="659" y="180" width="349" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="w27-iF-ONc">
                                 <rect key="frame" x="176" y="66" width="832" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A1t-B4-hYP">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A1t-B4-hYP">
                                 <rect key="frame" x="476" y="218" width="51" height="31"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wv9-y5-Fgl">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wv9-y5-Fgl">
                                 <rect key="frame" x="959" y="218" width="51" height="31"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dig-X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6j1-60-bLN">
@@ -146,7 +314,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-Bd-MBa">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hbQ-Bd-MBa">
                                 <rect key="frame" x="176" y="252" width="51" height="31"/>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Huidige school" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25o-mb-2CP">
@@ -155,27 +323,40 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48x-Zc-D3S">
+                                <rect key="frame" x="484" y="477" width="57" height="30"/>
+                                <state key="normal" title="Opslaan">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Opslaan:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Kd-jg-w2Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="btnSave" destination="48x-Zc-D3S" id="tam-KU-GJm"/>
+                        <outlet property="lblDigx" destination="6j1-60-bLN" id="cm1-iu-vcu"/>
+                        <outlet property="lblInterests" destination="oXl-cS-FEr" id="ZVy-Id-KB2"/>
+                        <outlet property="lblMultec" destination="pOr-8p-zn9" id="E1m-Ya-CWd"/>
                         <outlet property="swDig" destination="A1t-B4-hYP" id="cCU-sf-TJE"/>
                         <outlet property="swMultec" destination="Wv9-y5-Fgl" id="moz-pB-Owl"/>
-                        <outlet property="swWerkStud" destination="hbQ-Bd-MBa" id="w8Q-F5-cLx"/>
+                        <outlet property="swWorkStudent" destination="hbQ-Bd-MBa" id="B5a-Ch-Lpj"/>
+                        <outlet property="tfCity" destination="iQB-Oz-3N9" id="xJx-mJ-3Ab"/>
                         <outlet property="tfEmail" destination="kDD-61-gdt" id="5Gx-xa-oQb"/>
-                        <outlet property="tfFamilieNaam" destination="w27-iF-ONc" id="Xh5-mg-QS0"/>
-                        <outlet property="tfGemeente" destination="iQB-Oz-3N9" id="Opf-mL-wkz"/>
-                        <outlet property="tfNummer" destination="Xpp-dS-Nls" id="ryu-Mv-YhU"/>
-                        <outlet property="tfPostcode" destination="wQc-uD-PB6" id="7af-7O-Qrk"/>
+                        <outlet property="tfFirstName" destination="4KD-cO-L2d" id="EWg-s3-7eP"/>
+                        <outlet property="tfLastName" destination="w27-iF-ONc" id="V8J-h7-rr2"/>
                         <outlet property="tfSchool" destination="f8M-4u-1AF" id="vUw-A5-cQ7"/>
-                        <outlet property="tfStraat" destination="kTM-Us-X7I" id="h5l-Nt-nbg"/>
-                        <outlet property="tfVoornaam" destination="4KD-cO-L2d" id="Fk4-C3-p5f"/>
+                        <outlet property="tfStreet" destination="kTM-Us-X7I" id="XFR-Kw-N2s"/>
+                        <outlet property="tfStreetNumber" destination="Xpp-dS-Nls" id="Pet-9J-x5K"/>
+                        <outlet property="tfZip" destination="wQc-uD-PB6" id="J50-ff-tuc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896" y="851"/>
+            <point key="canvasLocation" x="-16" y="-1065"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
