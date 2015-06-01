@@ -7,9 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
-//el commentos
+
+//textfields
+@property (weak, nonatomic) IBOutlet UITextField *tfVoornaam;
+@property (weak, nonatomic) IBOutlet UITextField *tfFamilieNaam;
+@property (weak, nonatomic) IBOutlet UITextField *tfEmail;
+@property (weak, nonatomic) IBOutlet UITextField *tfStraat;
+@property (weak, nonatomic) IBOutlet UITextField *tfGemeente;
+@property (weak, nonatomic) IBOutlet UITextField *tfNummer;
+@property (weak, nonatomic) IBOutlet UITextField *tfPostcode;
+@property (weak, nonatomic) IBOutlet UITextField *tfSchool;
+
+//switches
+@property (weak, nonatomic) IBOutlet UISwitch *swDig;
+@property (weak, nonatomic) IBOutlet UISwitch *swMultec;
+@property (weak, nonatomic) IBOutlet UISwitch *swWerkStud;
+
 
 
 @end

@@ -10,9 +10,12 @@
 
 @interface ViewController ()
 
+
 @end
 
 @implementation ViewController
+
+@synthesize tfEmail, tfFamilieNaam, tfGemeente, tfNummer, tfPostcode, tfSchool, tfStraat, tfVoornaam, swDig, swMultec, swWerkStud;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
