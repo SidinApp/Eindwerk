@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>67B06678-F15D-41B3-AC2D-7BA39082F490</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sidin App</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D61C8033C8B45D9D4EDDE939107C0281C5EE09BA</key>
+		<string>github.com:SidinApp/Eindwerk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sidin App.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D61C8033C8B45D9D4EDDE939107C0281C5EE09BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:SidinApp/Eindwerk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D61C8033C8B45D9D4EDDE939107C0281C5EE09BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D61C8033C8B45D9D4EDDE939107C0281C5EE09BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sidin</string>
+		</dict>
+	</array>
+</dict>
+</plist>
