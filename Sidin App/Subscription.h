@@ -2,30 +2,30 @@
 //  Subscription.h
 //  Sidin App
 //
-//  Created by  on 01/06/15.
+//  Created by  on 03/06/15.
 //  Copyright (c) 2015 ehb.be. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "Teacher.h"
-#import "Event.h"
-#import "School.h"
+#import <CoreData/CoreData.h>
 
-@interface Subscription : NSObject
+@class Event, Interest, School, Teacher;
 
-@property long id;
-@property NSString *firstName;
-@property NSString *lastName;
-@property NSString *email;
-@property NSString *street;
-@property NSString *streetNumber;
-@property NSString *zip;
-@property NSString *city;
-@property NSMutableDictionary *interests;
-@property NSDate *timestamp;
-@property BOOL isNew;
-@property Teacher *teacher;
-@property Event *event;
-@property School *school;
+@interface Subscription : NSManagedObject
+
+@property (nonatomic, retain) NSNumber * id;
+@property (nonatomic, retain) NSString * firstName;
+@property (nonatomic, retain) NSString * lastName;
+@property (nonatomic, retain) NSString * email;
+@property (nonatomic, retain) NSString * street;
+@property (nonatomic, retain) NSString * streetNumber;
+@property (nonatomic, retain) NSString * zip;
+@property (nonatomic, retain) NSString * city;
+@property (nonatomic, retain) NSDate * timeStamp;
+@property (nonatomic, retain) NSNumber * isNew;
+@property (nonatomic, retain) Event *event;
+@property (nonatomic, retain) Teacher *teacher;
+@property (nonatomic, retain) School *school;
+@property (nonatomic, retain) Interest *interests;
 
 @end

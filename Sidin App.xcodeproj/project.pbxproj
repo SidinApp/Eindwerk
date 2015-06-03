@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3DBA861B1C60DB00D0106D /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA851B1C60DB00D0106D /* Event.m */; };
-		6D3DBA891B1C611B00D0106D /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA881B1C611B00D0106D /* School.m */; };
-		6D3DBA8C1B1C612800D0106D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA8B1B1C612800D0106D /* Teacher.m */; };
-		6D3DBA8F1B1C613900D0106D /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA8E1B1C613900D0106D /* Subscription.m */; };
 		6D3DBA921B1C818300D0106D /* SidInUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D3DBA911B1C818300D0106D /* SidInUtils.m */; };
+		6DA173FB1B1F1E950072BF90 /* Subscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA173FA1B1F1E950072BF90 /* Subscription.m */; };
+		6DA173FE1B1F1E950072BF90 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA173FD1B1F1E950072BF90 /* Teacher.m */; };
+		6DA174011B1F1E950072BF90 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA174001B1F1E950072BF90 /* School.m */; };
+		6DA174041B1F1E950072BF90 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA174031B1F1E950072BF90 /* Event.m */; };
+		6DA174071B1F1E950072BF90 /* Interest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA174061B1F1E950072BF90 /* Interest.m */; };
 		6F6ED7B71B1C42D9004098CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B61B1C42D9004098CF /* main.m */; };
 		6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7B91B1C42D9004098CF /* AppDelegate.m */; };
 		6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F6ED7BB1B1C42D9004098CF /* Sidin_App.xcdatamodeld */; };
@@ -33,16 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D3DBA841B1C60DB00D0106D /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
-		6D3DBA851B1C60DB00D0106D /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		6D3DBA871B1C611B00D0106D /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
-		6D3DBA881B1C611B00D0106D /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
-		6D3DBA8A1B1C612800D0106D /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
-		6D3DBA8B1B1C612800D0106D /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
-		6D3DBA8D1B1C613900D0106D /* Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscription.h; sourceTree = "<group>"; };
-		6D3DBA8E1B1C613900D0106D /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
 		6D3DBA901B1C818300D0106D /* SidInUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidInUtils.h; sourceTree = "<group>"; };
 		6D3DBA911B1C818300D0106D /* SidInUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidInUtils.m; sourceTree = "<group>"; };
+		6DA173F91B1F1E950072BF90 /* Subscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscription.h; sourceTree = "<group>"; };
+		6DA173FA1B1F1E950072BF90 /* Subscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscription.m; sourceTree = "<group>"; };
+		6DA173FC1B1F1E950072BF90 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		6DA173FD1B1F1E950072BF90 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		6DA173FF1B1F1E950072BF90 /* School.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		6DA174001B1F1E950072BF90 /* School.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		6DA174021B1F1E950072BF90 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		6DA174031B1F1E950072BF90 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		6DA174051B1F1E950072BF90 /* Interest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interest.h; sourceTree = "<group>"; };
+		6DA174061B1F1E950072BF90 /* Interest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Interest.m; sourceTree = "<group>"; };
 		6F6ED7B11B1C42D9004098CF /* Sidin App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidin App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F6ED7B51B1C42D9004098CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F6ED7B61B1C42D9004098CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -80,14 +83,16 @@
 		6D3DBA811B1C60A300D0106D /* model */ = {
 			isa = PBXGroup;
 			children = (
-				6D3DBA841B1C60DB00D0106D /* Event.h */,
-				6D3DBA851B1C60DB00D0106D /* Event.m */,
-				6D3DBA871B1C611B00D0106D /* School.h */,
-				6D3DBA881B1C611B00D0106D /* School.m */,
-				6D3DBA8A1B1C612800D0106D /* Teacher.h */,
-				6D3DBA8B1B1C612800D0106D /* Teacher.m */,
-				6D3DBA8D1B1C613900D0106D /* Subscription.h */,
-				6D3DBA8E1B1C613900D0106D /* Subscription.m */,
+				6DA174051B1F1E950072BF90 /* Interest.h */,
+				6DA174061B1F1E950072BF90 /* Interest.m */,
+				6DA174021B1F1E950072BF90 /* Event.h */,
+				6DA174031B1F1E950072BF90 /* Event.m */,
+				6DA173FF1B1F1E950072BF90 /* School.h */,
+				6DA174001B1F1E950072BF90 /* School.m */,
+				6DA173FC1B1F1E950072BF90 /* Teacher.h */,
+				6DA173FD1B1F1E950072BF90 /* Teacher.m */,
+				6DA173F91B1F1E950072BF90 /* Subscription.h */,
+				6DA173FA1B1F1E950072BF90 /* Subscription.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -264,14 +269,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F6ED7BD1B1C42D9004098CF /* Sidin_App.xcdatamodeld in Sources */,
-				6D3DBA8C1B1C612800D0106D /* Teacher.m in Sources */,
+				6DA173FE1B1F1E950072BF90 /* Teacher.m in Sources */,
 				6F6ED7BA1B1C42D9004098CF /* AppDelegate.m in Sources */,
-				6D3DBA861B1C60DB00D0106D /* Event.m in Sources */,
+				6DA174041B1F1E950072BF90 /* Event.m in Sources */,
+				6DA174011B1F1E950072BF90 /* School.m in Sources */,
 				6D3DBA921B1C818300D0106D /* SidInUtils.m in Sources */,
 				6F6ED7C01B1C42D9004098CF /* ViewController.m in Sources */,
+				6DA174071B1F1E950072BF90 /* Interest.m in Sources */,
+				6DA173FB1B1F1E950072BF90 /* Subscription.m in Sources */,
 				6F6ED7B71B1C42D9004098CF /* main.m in Sources */,
-				6D3DBA8F1B1C613900D0106D /* Subscription.m in Sources */,
-				6D3DBA891B1C611B00D0106D /* School.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

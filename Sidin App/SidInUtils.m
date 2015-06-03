@@ -12,6 +12,8 @@
 
 @implementation SidInUtils
 
+NSString *const DEPARTEMENT_SERVICE_URL = @"UNKNOWN";
+
 NSString *const TEACHER_SERVICE_URL = @"http://vdabsidin3.appspot.com/rest/teacher";
 NSString *const TEACHERS_SERVICE_URL = @"http://vdabsidin3.appspot.com/rest/teachers";
 

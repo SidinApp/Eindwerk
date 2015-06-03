@@ -13,6 +13,8 @@
 
 @interface SidInUtils : NSObject
 
+extern NSString *const DEPARTEMENT_SERVICE_URL;
+
 extern NSString *const TEACHER_SERVICE_URL;
 extern NSString *const TEACHERS_SERVICE_URL;
 
