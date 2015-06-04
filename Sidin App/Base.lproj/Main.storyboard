@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D131" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -36,10 +36,10 @@
             </objects>
             <point key="canvasLocation" x="-3618" y="-1065"/>
         </scene>
-        <!--View Controller-->
+        <!--InlogScreen-->
         <scene sceneID="ts8-PL-Ufe">
             <objects>
-                <viewController id="7Ao-L4-Rgs" sceneMemberID="viewController">
+                <viewController title="InlogScreen" id="7Ao-L4-Rgs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8zm-tl-ATL"/>
                         <viewControllerLayoutGuide type="bottom" id="SRG-r7-TKf"/>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="-2421" y="-1072"/>
         </scene>
-        <!--View Controller-->
+        <!--TodaysListVC-->
         <scene sceneID="MMo-si-a4J">
             <objects>
-                <viewController id="ZHs-t2-KHu" sceneMemberID="viewController">
+                <viewController title="TodaysListVC" id="ZHs-t2-KHu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iVQ-tK-JKZ"/>
                         <viewControllerLayoutGuide type="bottom" id="hIH-0t-PMe"/>
@@ -99,7 +99,14 @@
                     <view key="view" contentMode="scaleToFill" id="Znc-lm-f6P">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Today's List" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XLg-uq-q32">
+                                <rect key="frame" x="387" y="369" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.38604029969999998" blue="0.33431022160000001" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -107,10 +114,10 @@
             </objects>
             <point key="canvasLocation" x="-2382" y="-7"/>
         </scene>
-        <!--View Controller-->
+        <!--PDFsVC-->
         <scene sceneID="s0p-P3-EbU">
             <objects>
-                <viewController id="0s7-cs-Zyc" sceneMemberID="viewController">
+                <viewController title="PDFsVC" id="0s7-cs-Zyc" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dhx-GQ-Auu"/>
                         <viewControllerLayoutGuide type="bottom" id="n5c-ZS-TsZ"/>
@@ -118,7 +125,14 @@
                     <view key="view" contentMode="scaleToFill" id="ZY3-20-fbI">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="PDFs" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tbE-ZB-7r3">
+                                <rect key="frame" x="410" y="306" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.77475761701206236" blue="0.64311081747755239" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -126,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="-1230" y="-95"/>
         </scene>
-        <!--View Controller-->
+        <!--MapsVC-->
         <scene sceneID="dr2-jB-jlk">
             <objects>
-                <viewController id="hNK-J2-7nu" sceneMemberID="viewController">
+                <viewController title="MapsVC" id="hNK-J2-7nu" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n9c-h9-ShX"/>
                         <viewControllerLayoutGuide type="bottom" id="CuG-q4-sSW"/>
@@ -137,7 +151,14 @@
                     <view key="view" contentMode="scaleToFill" id="SqP-bU-s3c">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Maps" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CEK-rf-qMf">
+                                <rect key="frame" x="377" y="414" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75673432318132339" green="0.96710372105809572" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                 </viewController>
@@ -145,10 +166,10 @@
             </objects>
             <point key="canvasLocation" x="-90" y="-7"/>
         </scene>
-        <!--View Controller-->
+        <!--IncheckVC-->
         <scene sceneID="uMQ-K2-XQc">
             <objects>
-                <viewController id="G01-cP-3zD" sceneMemberID="viewController">
+                <viewController title="IncheckVC" id="G01-cP-3zD" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VMM-js-VAK"/>
                         <viewControllerLayoutGuide type="bottom" id="6iU-9i-Ejf"/>
@@ -157,9 +178,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bj-0o-2HP">
-                                <rect key="frame" x="482" y="451" width="61" height="30"/>
-                                <state key="normal" title="Check in">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_checkin.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5ta-Jq-PGa" customClass="BG_CheckIn">
+                                <rect key="frame" x="-38" y="-34" width="1075" height="802"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoErasmus.png" translatesAutoresizingMaskIntoConstraints="NO" id="dfm-Ds-cTy">
+                                <rect key="frame" x="149" y="135" width="701" height="273"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNf-5h-JKK">
+                                <rect key="frame" x="418" y="429" width="189" height="64"/>
+                                <color key="backgroundColor" red="1" green="0.38604029972639586" blue="0.334310221572511" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Inchecken">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
@@ -170,12 +200,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqs-Ic-UFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1230" y="-1065"/>
+            <point key="canvasLocation" x="-1214" y="-1072"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu-->
+        <scene sceneID="GdT-wy-fCP">
+            <objects>
+                <tableViewController title="Menu" id="p3T-Nl-nFq" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="dbT-r0-vBj">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BfC-U8-NVj">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BfC-U8-NVj" id="Hs9-z3-BUI">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="p3T-Nl-nFq" id="q6d-9v-dyk"/>
+                            <outlet property="delegate" destination="p3T-Nl-nFq" id="67A-8V-Q24"/>
+                        </connections>
+                    </tableView>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wpy-oT-B5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-148" y="-1065"/>
+        </scene>
+        <!--RegistrationVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController title="RegistrationVC" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -264,7 +322,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kDD-61-gdt">
                                 <rect key="frame" x="176" y="104" width="832" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f8M-4u-1AF">
                                 <rect key="frame" x="176" y="291" width="832" height="30"/>
@@ -284,7 +342,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xpp-dS-Nls">
                                 <rect key="frame" x="659" y="142" width="349" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wQc-uD-PB6">
                                 <rect key="frame" x="659" y="180" width="349" height="30"/>
@@ -356,9 +414,65 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="-1065"/>
+            <point key="canvasLocation" x="956" y="-1057"/>
+        </scene>
+        <!--TodaysListVC-->
+        <scene sceneID="ZIl-1J-qvX">
+            <objects>
+                <viewController title="TodaysListVC" id="kb6-tc-BFJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="f5W-ry-wSv"/>
+                        <viewControllerLayoutGuide type="bottom" id="fX5-Xw-aVl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Brn-XJ-aJf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MAPS" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hib-eb-Cqr">
+                                <rect key="frame" x="387" y="369" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.38604029969999998" blue="0.33431022160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BsY-75-e8x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2382" y="-7"/>
+        </scene>
+        <!--TodaysListVC-->
+        <scene sceneID="KIo-SN-top">
+            <objects>
+                <viewController title="TodaysListVC" id="eO4-ps-mKj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kBQ-x5-2Kt"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zq3-7r-HHY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gTe-d0-xZA">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MAPS" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iOE-W8-3cC">
+                                <rect key="frame" x="387" y="369" width="270" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.38604029969999998" blue="0.33431022160000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjD-ya-Isi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2382" y="-7"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_checkin.jpg" width="2048" height="1536"/>
+        <image name="logoErasmus.png" width="833" height="199"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
